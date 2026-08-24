@@ -1,0 +1,90 @@
+<svg width="1365" height="768" viewBox="0 0 1365 768" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0E5D2"/>
+      <stop offset="0.43" stop-color="#A89D8F"/>
+      <stop offset="1" stop-color="#6E645A"/>
+    </linearGradient>
+    <linearGradient id="metalEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFB54A"/>
+      <stop offset="1" stop-color="#8D3F00"/>
+    </linearGradient>
+    <linearGradient id="dashPaint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF2E00"/>
+      <stop offset="0.6" stop-color="#FF4A00"/>
+      <stop offset="1" stop-color="#FF8200"/>
+    </linearGradient>
+    <linearGradient id="blueStreak" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0B1B4D"/>
+      <stop offset="1" stop-color="#26D0FF"/>
+    </linearGradient>
+    <linearGradient id="orangeStreak" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4A1300"/>
+      <stop offset="1" stop-color="#FF6F00"/>
+    </linearGradient>
+    <filter id="heavyShadow" x="-30%" y="-30%" width="170%" height="180%">
+      <feDropShadow dx="0" dy="14" stdDeviation="10" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="1365" height="768" fill="transparent"/>
+
+  <g opacity="0.88">
+    <path d="M270 210 L300 160 L330 210 Z" fill="#FF7A00"/>
+    <path d="M330 210 L360 152 L390 210 Z" fill="#FF7A00"/>
+    <path d="M390 210 L425 145 L460 210 Z" fill="#FF7A00"/>
+    <path d="M470 210 L500 155 L530 210 Z" fill="#2F8DFF"/>
+    <path d="M540 210 L572 144 L604 210 Z" fill="#2F8DFF"/>
+    <path d="M615 210 L652 135 L689 210 Z" fill="#2F8DFF"/>
+    <path d="M700 210 L734 140 L768 210 Z" fill="#2F8DFF"/>
+    <path d="M782 210 L818 146 L854 210 Z" fill="#2F8DFF"/>
+    <path d="M870 210 L908 128 L946 210 Z" fill="#2F8DFF"/>
+    <path d="M965 210 L1002 138 L1039 210 Z" fill="#2F8DFF"/>
+  </g>
+
+  <ellipse cx="1080" cy="248" rx="118" ry="118" fill="none" stroke="#2B74FF" stroke-width="15" opacity="0.85"/>
+  <ellipse cx="1080" cy="248" rx="90" ry="90" fill="none" stroke="#1D3A87" stroke-width="4" opacity="0.85"/>
+  <path d="M1080 116 L1080 380 M948 248 L1212 248" stroke="#FFC56B" stroke-width="8" opacity="0.8"/>
+
+  <g transform="translate(142,198)" filter="url(#heavyShadow)">
+    <path d="M0 270 L56 65 L178 55 L148 145 L108 148 L92 212 L182 215 L164 290 L18 294 Z" fill="url(#metalEdge)"/>
+    <path d="M12 258 L60 78 L168 70 L137 144 L95 146 L82 198 L171 203 L151 275 L29 278 Z" fill="url(#metal)"/>
+
+    <path d="M190 280 L248 67 L356 57 L294 283 Z" fill="url(#metalEdge)"/>
+    <path d="M206 268 L255 81 L344 73 L292 266 Z" fill="url(#metal)"/>
+
+    <path d="M362 286 L424 61 L618 56 L595 142 L509 146 L492 211 L578 214 L557 288 L363 292 Z" fill="url(#metalEdge)"/>
+    <path d="M377 272 L431 75 L605 72 L585 132 L499 136 L481 224 L568 227 L551 272 L382 278 Z" fill="url(#metal)"/>
+
+    <path d="M628 287 L686 67 L875 61 L856 136 L792 136 L785 168 L848 170 L873 223 L857 286 L631 292 Z" fill="url(#metalEdge)"/>
+    <path d="M643 273 L693 82 L860 76 L844 128 L780 128 L770 176 L836 177 L857 224 L844 272 L647 278 Z" fill="url(#metal)"/>
+
+    <path d="M883 290 L938 74 L1068 73 L1115 123 L1078 290 Z" fill="url(#metalEdge)"/>
+    <path d="M897 276 L946 88 L1058 88 L1098 129 L1068 274 Z" fill="url(#metal)"/>
+
+    <circle cx="102" cy="132" r="16" fill="#1B1B1B"/>
+    <circle cx="102" cy="132" r="28" fill="none" stroke="#D0D0D0" stroke-width="3" opacity="0.45"/>
+    <circle cx="1035" cy="205" r="16" fill="#1B1B1B"/>
+    <circle cx="1035" cy="205" r="34" fill="none" stroke="#D0D0D0" stroke-width="3" opacity="0.45"/>
+    <path d="M980 168 L1022 194 M1010 158 L1036 193" stroke="#E5E5E5" stroke-width="3" opacity="0.45"/>
+  </g>
+
+  <g opacity="0.95" filter="url(#heavyShadow)">
+    <path d="M90 395 L380 362 L739 334 L1120 338 L1280 356 L1158 405 L760 430 L385 450 L160 440 Z" fill="url(#blueStreak)"/>
+    <path d="M118 380 L345 342 L705 315 L1118 318 L1270 333 L1140 366 L735 389 L330 410 L148 408 Z" fill="url(#orangeStreak)" opacity="0.75"/>
+  </g>
+
+  <g transform="translate(332,420)" filter="url(#heavyShadow)">
+    <path d="M0 255 L102 30 L172 24 L140 93 L235 70 L325 22 L425 13 L378 84 L502 56 L640 10 L738 16 L662 112 L770 88 L858 42 L892 58 L816 151 L889 135 L920 146 L823 220 L730 240 L640 233 L572 208 L488 240 L365 252 L250 245 L132 261 Z" fill="#8F0E00"/>
+    <path d="M8 244 L108 44 L163 40 L128 113 L231 89 L326 39 L412 31 L355 105 L504 75 L646 30 L721 32 L646 132 L766 108 L854 62 L865 67 L786 165 L860 152 L879 159 L809 209 L722 225 L635 218 L565 193 L481 226 L364 238 L250 229 L130 245 Z" fill="url(#dashPaint)"/>
+    <path d="M80 256 L862 118" stroke="#FF2500" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <path d="M30 346 L230 282" stroke="#FF5B00" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="225" cy="284" rx="48" ry="12" fill="#FFB84A" transform="rotate(-15 225 284)"/>
+    <path d="M0 300 L42 328 L33 350 Z" fill="#6A5F57"/>
+    <path d="M10 365 L52 383 L39 406 Z" fill="#6A5F57"/>
+    <path d="M46 432 L86 439 L68 463 Z" fill="#6A5F57"/>
+  </g>
+</svg>

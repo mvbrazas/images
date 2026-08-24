@@ -1,0 +1,49 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#09080C"/>
+      <stop offset="0.48" stop-color="#1A0E0A"/>
+      <stop offset="0.52" stop-color="#0A1522"/>
+      <stop offset="1" stop-color="#07111E"/>
+    </linearGradient>
+    <linearGradient id="fireGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF7A00" stop-opacity="0.55"/>
+      <stop offset="0.7" stop-color="#FF5A00" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#FF5A00" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="iceGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1F6FFF" stop-opacity="0"/>
+      <stop offset="0.3" stop-color="#1F8EFF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#22D1FF" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" fill="url(#base)"/>
+  <rect width="1200" height="420" fill="url(#fireGlow)"/>
+  <rect width="1200" height="420" fill="url(#iceGlow)"/>
+
+  <g opacity="0.55">
+    <path d="M0 320 L1200 220" stroke="#FF5E00" stroke-width="4"/>
+    <path d="M0 360 L1200 260" stroke="#1E8CFF" stroke-width="4"/>
+    <path d="M120 420 L960 140" stroke="#FF8A00" stroke-width="3" opacity="0.35"/>
+    <path d="M360 420 L1200 170" stroke="#20C9FF" stroke-width="3" opacity="0.35"/>
+  </g>
+
+  <g opacity="0.9">
+    <rect x="60" y="230" width="90" height="190" fill="#130F15"/>
+    <rect x="168" y="180" width="124" height="240" fill="#18131B"/>
+    <rect x="318" y="248" width="96" height="172" fill="#120F16"/>
+    <rect x="434" y="195" width="140" height="225" fill="#1B1520"/>
+    <rect x="600" y="236" width="104" height="184" fill="#12121A"/>
+    <rect x="724" y="168" width="164" height="252" fill="#151C2A"/>
+    <rect x="910" y="214" width="116" height="206" fill="#12131C"/>
+    <rect x="1046" y="186" width="120" height="234" fill="#16253A"/>
+  </g>
+
+  <g opacity="0.45">
+    <rect x="192" y="196" width="6" height="8" fill="#FF9B30"/>
+    <rect x="238" y="210" width="6" height="8" fill="#FF9B30"/>
+    <rect x="764" y="184" width="6" height="8" fill="#40CFFF"/>
+    <rect x="820" y="200" width="6" height="8" fill="#40CFFF"/>
+    <rect x="1080" y="202" width="6" height="8" fill="#40CFFF"/>
+  </g>
+</svg>
